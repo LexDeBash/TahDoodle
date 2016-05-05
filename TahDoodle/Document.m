@@ -55,4 +55,32 @@
     NSLog(@"Add Task button clicked!");
 }
 
+#pragma mark Data Source Methods
+
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
+    // Так как табличное представление отображает массив задач, то количество записей в нем будет таким же, как и в массиве
+    // Возвращаем количество строк массива в табличное представление
+    return [self.tasks count];
+}
+
+- (id)tableView:(NSTableView *)tableView
+objectValueForTableColumn:(NSTableColumn *)tableColumn
+            row:(NSInteger)row {
+    // Возвращаем элемент из массива задач в соответствии с ячейкой, которая должна отображаться в табличном представлении
+    return [self.tasks objectAtIndex:row];
+}
+
+- (void)tableView:(NSTableView *)tableView
+   setObjectValue:(id)object
+   forTableColumn:(NSTableColumn *)tableColumn
+              row:(NSInteger)row {
+    // Когда пользователь меняет задачи в табличном представлении, обновляем список задач в массиве
+    [self.tasks replaceObjectAtIndex:row
+                          withObject:object];
+    // И помечаем документ, как с несохраненными изменениями
+    [self updateChangeCount:NSChangeDone];
+}
+
+
+
 @end
