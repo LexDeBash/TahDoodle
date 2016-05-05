@@ -76,6 +76,12 @@
     [self updateChangeCount:NSChangeDone];
 }
 
+- (IBAction)deleteTask:(id)sender {
+    [self.tasks removeObjectAtIndex:[_taskTable selectedRow]];
+    [self.taskTable reloadData];
+    [self updateChangeCount:NSChangeDone];
+}
+
 #pragma mark Data Source Methods
 
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {

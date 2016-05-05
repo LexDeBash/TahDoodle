@@ -86,6 +86,9 @@
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="deleteTask:" target="-2" id="Onk-ik-Bax"/>
+                        </connections>
                     </button>
                 </subviews>
                 <constraints>
