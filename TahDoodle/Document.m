@@ -52,7 +52,17 @@
 #pragma mark - Actions
 
 - (void)addTask:(id)sender {
-    NSLog(@"Add Task button clicked!");
+    // Если массива задач не существует, то создаем его
+    if (!self.tasks) {
+        self.tasks = [NSMutableArray array];
+    }
+    [self.tasks addObject:@"New Item"];
+    
+    // -reloadData приказывает табличному представлению обновиться и запросить у источнки данных (которым в данном случае является объект Document) новые данные для отображения
+    [self.taskTable reloadData];
+    
+    // -updateChangeCount: сообщает приложению, содержит ли докуенмт несохраненные данные. NSChangeDone помечает документ, как несохраненный
+    [self updateChangeCount:NSChangeDone];
 }
 
 #pragma mark Data Source Methods
