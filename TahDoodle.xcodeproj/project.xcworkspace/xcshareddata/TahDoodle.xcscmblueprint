@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B4782CCB398AE3D16B40579C4390B241977178C4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B4782CCB398AE3D16B40579C4390B241977178C4" : 0,
+    "03143704214FDB3FEF9B48801EB17B01AAA68FBA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9ED51840-B16C-4E7F-8A90-685188F88EBE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B4782CCB398AE3D16B40579C4390B241977178C4" : "TahDoodle\/",
+    "03143704214FDB3FEF9B48801EB17B01AAA68FBA" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TahDoodle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TahDoodle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LexDeBash\/The-big-nerd-ranch-2012.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03143704214FDB3FEF9B48801EB17B01AAA68FBA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LexDeBash\/TahDoodle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4782CCB398AE3D16B40579C4390B241977178C4"
+    }
+  ]
+}
