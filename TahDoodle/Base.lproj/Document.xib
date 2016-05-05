@@ -80,14 +80,23 @@
                             <action selector="addTask:" target="-2" id="Wey-ai-jfF"/>
                         </connections>
                     </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="26I-Vb-dWr">
+                        <rect key="frame" x="110" y="13" width="111" height="32"/>
+                        <buttonCell key="cell" type="push" title="Delete Task" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9kZ-7z-Zw5">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="aOb-yZ-ePh" firstAttribute="top" secondItem="gIp-Ho-8D9" secondAttribute="top" constant="20" id="4We-oK-Hsm"/>
+                    <constraint firstItem="26I-Vb-dWr" firstAttribute="leading" secondItem="CxO-Iz-S9n" secondAttribute="trailing" constant="12" id="8Ts-eS-k4e"/>
                     <constraint firstAttribute="trailing" secondItem="aOb-yZ-ePh" secondAttribute="trailing" constant="20" id="Aff-SN-1Y6"/>
                     <constraint firstItem="aOb-yZ-ePh" firstAttribute="leading" secondItem="gIp-Ho-8D9" secondAttribute="leading" constant="20" id="SOX-13-Jqg"/>
                     <constraint firstAttribute="bottom" secondItem="CxO-Iz-S9n" secondAttribute="bottom" constant="20" id="Ye0-3v-cDw"/>
                     <constraint firstItem="CxO-Iz-S9n" firstAttribute="leading" secondItem="gIp-Ho-8D9" secondAttribute="leading" constant="20" id="asi-ZO-Lku"/>
                     <constraint firstAttribute="bottom" secondItem="aOb-yZ-ePh" secondAttribute="bottom" constant="55" id="l5l-Tt-jgV"/>
+                    <constraint firstAttribute="bottom" secondItem="26I-Vb-dWr" secondAttribute="bottom" constant="20" id="uRK-5R-eaW"/>
                 </constraints>
             </view>
             <connections>
